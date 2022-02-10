@@ -11,8 +11,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import com.player.auction.model.Player;
 
 
-
-
 @Repository 
 public interface PlayerRepository extends JpaRepository<Player, Long>{
 	
